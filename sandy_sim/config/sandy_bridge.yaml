@@ -1,0 +1,64 @@
+# ros_gz_bridge config for Sandy buoy sensor pipeline (Jazzy + Harmonic).
+#
+# Usage:
+#   ros2 launch ros_gz_bridge ros_gz_bridge.launch.py \
+#     bridge_name:=sandy_bridge \
+#     config_file:=/path/to/sandy_sim/config/sandy_bridge.yaml
+#
+# After bridge is up, verify with:
+#   ros2 topic list
+#   ros2 topic echo /sandy/as7341_down --once
+#   ros2 topic echo /sandy/photodiode_side --once
+#   ros2 topic echo /model/sandy_buoy/pose --once
+
+# AS7341 downward camera (8x8 RGB image)
+- ros_topic_name: "/sandy/as7341_down"
+  gz_topic_name:  "/sandy/as7341_down"
+  ros_type_name:  "sensor_msgs/msg/Image"
+  gz_type_name:   "gz.msgs.Image"
+  direction: GZ_TO_ROS
+
+# BPW34 side photodiode (4x4 RGB image, treated as scalar irradiance)
+- ros_topic_name: "/sandy/photodiode_side"
+  gz_topic_name:  "/sandy/photodiode_side"
+  ros_type_name:  "sensor_msgs/msg/Image"
+  gz_type_name:   "gz.msgs.Image"
+  direction: GZ_TO_ROS
+
+# Raw air_pressure reading (kept for diagnostics; not used for depth).
+# The "real" depth-derived pressure comes from depth_publisher.py on
+# /sandy/pressure, NOT through the bridge.
+- ros_topic_name: "/sandy/pressure_raw"
+  gz_topic_name:  "/sandy/pressure_raw"
+  ros_type_name:  "sensor_msgs/msg/FluidPressure"
+  gz_type_name:   "gz.msgs.FluidPressure"
+  direction: GZ_TO_ROS
+
+# World-level pose stream from SceneBroadcaster. Publishes ALL model poses
+# at every render tick, regardless of whether anything moved. This is the
+# reliable source for kinematic/static models (where the model-level
+# PosePublisher won't fire because pose never changes).
+#
+# Message format: gz.msgs.Pose_V <-> geometry_msgs/PoseArray
+# The header.frame_id of each Pose carries the model name, so the depth
+# publisher filters for "sandy_buoy".
+- ros_topic_name: "/world/antarctic_ocean/dynamic_pose/info"
+  gz_topic_name:  "/world/antarctic_ocean/dynamic_pose/info"
+  ros_type_name:  "geometry_msgs/msg/PoseArray"
+  gz_type_name:   "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS
+
+# Kept as a fallback / for inspection. Will only publish when buoy pose
+# actually changes (e.g. after a set_pose service call from the slider).
+- ros_topic_name: "/model/sandy_buoy/pose"
+  gz_topic_name:  "/model/sandy_buoy/pose"
+  ros_type_name:  "geometry_msgs/msg/PoseStamped"
+  gz_type_name:   "gz.msgs.Pose"
+  direction: GZ_TO_ROS
+
+# Clock — important if you want ROS to use simulation time.
+- ros_topic_name: "/clock"
+  gz_topic_name:  "/clock"
+  ros_type_name:  "rosgraph_msgs/msg/Clock"
+  gz_type_name:   "gz.msgs.Clock"
+  direction: GZ_TO_ROS

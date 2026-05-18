@@ -1,0 +1,1662 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net
+Start Time: Sun May 17 18:22:12 2026
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.1 i2=2e-09
+solver = Normal
+Maximum thread count: 32
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.2 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.3 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.4 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.5 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.6 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.7 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.8 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.9 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.1 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.2 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.3 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.4 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.5 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.6 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.7 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.8 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.9 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.1 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.2 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.3 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.4 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.5 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.6 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.7 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.8 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.9 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=3 i2=2e-09
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.1 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.2 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.3 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.4 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.5 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.6 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.7 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.8 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.9 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.1 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.2 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.3 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.4 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.5 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.6 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.7 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.8 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.9 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.1 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.2 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.3 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.4 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.5 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.6 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.7 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.8 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.9 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=3 i2=2e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.1 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.2 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.3 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.4 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.5 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.6 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.7 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.8 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.9 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.1 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.2 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.3 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.4 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.5 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.6 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.7 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.8 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.9 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.1 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.2 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.3 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.4 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.5 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.6 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.7 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.8 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.9 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=3 i2=5e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.1 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.2 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.3 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.4 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.5 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.6 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.7 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.8 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.9 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.1 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.2 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.3 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.4 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.5 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.6 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.7 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.8 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.9 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.1 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.2 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.3 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.4 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.5 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.6 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.7 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.8 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.9 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=3 i2=1.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.1 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.2 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.3 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.4 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.5 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.6 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.7 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.8 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.9 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.1 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.2 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.3 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.4 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.5 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.6 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.7 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.8 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.9 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.1 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.2 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.3 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.4 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.5 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.6 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.7 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.8 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.9 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=3 i2=2.5e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.1 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.2 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.3 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.4 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.5 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.6 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.7 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.8 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=0.9 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.1 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.2 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.3 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.4 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.5 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.6 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.7 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.8 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=1.9 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.1 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.2 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.3 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.4 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.5 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.6 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.7 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.8 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=2.9 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net(34): Ignoring unknown model parameter. This may or may not be a problem.
++ Kp=20 Lambda=0.01 Cgso=1e-9 Cgdo=2e-10 Tox=1e-7
+        ^^^^^^^^^^^^
+
+.step r_batt=3 i2=3.3e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 19.426 seconds.
+
+Files loaded:
+C:\Users\demxc\OneDrive - University of Cape Town\2026\EEE4113F\Project Sandy\LT SPICE\Draft Power Sim.net
+C:\Users\demxc\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\demxc\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\demxc\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\demxc\AppData\Local\LTspice\lib\sub\LT1761.lib
+C:\Users\demxc\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+

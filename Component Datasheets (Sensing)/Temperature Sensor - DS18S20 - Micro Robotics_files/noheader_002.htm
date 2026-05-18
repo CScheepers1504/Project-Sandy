@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="robots" content="noindex,follow">
+        <meta name="robots" content="noarchive">
+        <style>
+            body { font-family: monospace; padding: 0; margin: 0; }
+            div.embedPastebin { padding: 0; color: #000; margin: 0; font-family: monospace; background: #F7F7F7; border: 1px solid ddd; border-radius:3px; }
+            html.embedPBBody div.embedPastebin { border: none; }
+            div.embedPastebin div.embedFooter { background: #F7F7F7; color: #333; font-size: 100%; padding: 6px 12px; border-bottom: 1px solid #ddd; text-transform:uppercase; }
+            div.embedPastebin div.embedFooter a,
+            div.embedPastebin div.embedFooter a:visited { color: #336699; text-decoration:none; }
+            div.embedPastebin div.embedFooter a:hover { color: red; }
+            .noLines ol { list-style-type: none; padding-left: 0.5em; }
+            .embedPastebin{background-color:#F8F8F8;border:1px solid #ddd;font-size:12px;overflow:auto;margin: 0 0 0 0;padding:0 0 0 0;line-height:21px}
+            .embedPastebin div { line-height:21px; font-family:Consolas, Menlo, Monaco, Lucida Console,'Bitstream Vera Sans Mono','Courier',monospace; }
+            ol { margin:0; padding: 0 0 0 55px}
+            ol li { border:0; margin:0;padding:0; }
+            li.ln-xtra .de1, li.ln-xtra .de2 {background:#F8F8CE;}
+            .embedPastebin ol li.li1 { margin: 0; }
+            .embedPastebin ol li.li2 { margin: 0; }
+        </style>
+                    <link href="noheader_data_002/night.bundle.css" rel="stylesheet">
+                <link href="noheader_data_002/arduino.css" rel="stylesheet">
+    </head>
+    <body class="night" data-new-gr-c-s-check-loaded="8.936.0" data-gr-ext-installed="">
+        <div class="embedPastebin">
+            
+            <div class="highlighted-code">
+                <div class="source">
+                    <ol class="arduino"><li class="li1"><div class="de1"><span class="co1">//Here's an example code in Arduino that reads the temperature from an 18B20 sensor connected to an Arduino board:</span></div></li>
+<li class="li1"><div class="de1"><span class="co1">//Note: This code 
+assumes that the 18B20 sensor is connected to pin 2 of the Arduino 
+board. If you're using a different pin, you'll //need to modify the 
+ONE_WIRE_BUS definition accordingly.</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co2">#include &lt;OneWire.h&gt;</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1">// Data wire is connected to pin 2</span></div></li>
+<li class="li1"><div class="de1"><span class="co2">#define ONE_WIRE_BUS 2</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">OneWire oneWire<span class="br0">(</span>ONE_WIRE_BUS<span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="kw4">void</span> setup<span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw3">Serial</span>.<span class="me1">begin</span><span class="br0">(</span><span class="nu0">9600</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1"><span class="br0">}</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="kw4">void</span> loop<span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw4">byte</span> i<span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw4">byte</span> present <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw4">byte</span> type_s<span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw4">byte</span> data<span class="br0">[</span><span class="nu0">12</span><span class="br0">]</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw4">byte</span> addr<span class="br0">[</span><span class="nu0">8</span><span class="br0">]</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1">// start reading from the 18B20 sensor</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw1">if</span> <span class="br0">(</span><span class="sy0">!</span>oneWire.<span class="me1">search</span><span class="br0">(</span>addr<span class="br0">)</span><span class="br0">)</span> <span class="br0">{</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw3">Serial</span>.<span class="me1">println</span><span class="br0">(</span><span class="st0">"No more addresses."</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; oneWire.<span class="me1">reset_search</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw3">delay</span><span class="br0">(</span><span class="nu0">250</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw1">return</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="br0">}</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1">// check the CRC of the address</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw1">if</span> <span class="br0">(</span>OneWire<span class="sy0">::</span><span class="me2">crc8</span><span class="br0">(</span>addr<span class="sy0">,</span> <span class="nu0">7</span><span class="br0">)</span> <span class="sy0">!=</span> addr<span class="br0">[</span><span class="nu0">7</span><span class="br0">]</span><span class="br0">)</span> <span class="br0">{</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw3">Serial</span>.<span class="me1">println</span><span class="br0">(</span><span class="st0">"CRC is not valid!"</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw1">return</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="br0">}</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1">// the first ROM byte indicates which chip</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw1">switch</span> <span class="br0">(</span>addr<span class="br0">[</span><span class="nu0">0</span><span class="br0">]</span><span class="br0">)</span> <span class="br0">{</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw1">case</span> <span class="nu12">0x10</span><span class="sy0">:</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; type_s <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; <span class="kw2">break</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw1">case</span> <span class="nu12">0x28</span><span class="sy0">:</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; type_s <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; <span class="kw2">break</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw1">case</span> <span class="nu12">0x22</span><span class="sy0">:</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; type_s <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; <span class="kw2">break</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw1">default</span><span class="sy0">:</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; <span class="kw3">Serial</span>.<span class="me1">println</span><span class="br0">(</span><span class="st0">"Device is not recognized!"</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; <span class="kw1">return</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="br0">}</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1">// start conversion</span></div></li>
+<li class="li1"><div class="de1">&nbsp; oneWire.<span class="me1">reset</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; oneWire.<span class="me1">select</span><span class="br0">(</span>addr<span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; oneWire.<span class="me1">write</span><span class="br0">(</span><span class="nu12">0x44</span><span class="sy0">,</span> <span class="nu0">1</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1">// wait for conversion to complete</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw3">delay</span><span class="br0">(</span><span class="nu0">1000</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1">// read scratchpad</span></div></li>
+<li class="li1"><div class="de1">&nbsp; present <span class="sy0">=</span> oneWire.<span class="me1">reset</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; oneWire.<span class="me1">select</span><span class="br0">(</span>addr<span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; oneWire.<span class="me1">write</span><span class="br0">(</span><span class="nu12">0xBE</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1">// read data</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw1">for</span> <span class="br0">(</span>i <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">;</span> i <span class="sy0">&lt;</span> <span class="nu0">9</span><span class="sy0">;</span> i<span class="sy0">++</span><span class="br0">)</span> <span class="br0">{</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; data<span class="br0">[</span>i<span class="br0">]</span> <span class="sy0">=</span> oneWire.<span class="me1">read</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="br0">}</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1">// convert temperature data</span></div></li>
+<li class="li1"><div class="de1">&nbsp; int16_t raw <span class="sy0">=</span> <span class="br0">(</span>data<span class="br0">[</span><span class="nu0">1</span><span class="br0">]</span> <span class="sy0">&lt;&lt;</span> <span class="nu0">8</span><span class="br0">)</span> <span class="sy0">|</span> data<span class="br0">[</span><span class="nu0">0</span><span class="br0">]</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw4">float</span> celsius <span class="sy0">=</span> <span class="br0">(</span><span class="kw4">float</span><span class="br0">)</span>raw <span class="sy0">/</span> <span class="nu16">16.0</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1">// print temperature</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw3">Serial</span>.<span class="me1">print</span><span class="br0">(</span><span class="st0">"Temperature: "</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw3">Serial</span>.<span class="me1">print</span><span class="br0">(</span>celsius<span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw3">Serial</span>.<span class="me1">println</span><span class="br0">(</span><span class="st0">" °C"</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="co1">// delay before reading from the sensor again</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw3">delay</span><span class="br0">(</span><span class="nu0">1000</span><span class="br0">)</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1"><span class="br0">}</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+</ol>                </div>
+            </div>
+        </div>
+    
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

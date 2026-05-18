@@ -1,0 +1,35 @@
+.arduino .de1, .arduino .de2 {-moz-user-select: text;-khtml-user-select: text;-webkit-user-select: text;-ms-user-select: text;user-select: text;
+margin:0; padding: 0 8px; background:none; vertical-align:top;color:#000;border-left: 1px solid #ddd; margin: 0 0 0 -7px; position: relative; background: #ffffff;}
+.arduino  {color:#ACACAC;}
+.arduino .imp {font-weight: bold; color: red;}
+.arduino li, .arduino .li1 {-moz-user-select: -moz-none;-khtml-user-select: none;-webkit-user-select: none;-ms-user-select: none;user-select: none;
+}
+.arduino .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.arduino .kw1 {color: #b1b100;}
+.arduino .kw2 {color: #000000; font-weight: bold;}
+.arduino .kw3 {color: #000066;}
+.arduino .kw4 {color: #993333;}
+.arduino .co1 {color: #666666; font-style: italic;}
+.arduino .co2 {color: #339933;}
+.arduino .coMULTI {color: #808080; font-style: italic;}
+.arduino .es0 {color: #000099; font-weight: bold;}
+.arduino .es1 {color: #000099; font-weight: bold;}
+.arduino .es2 {color: #660099; font-weight: bold;}
+.arduino .es3 {color: #660099; font-weight: bold;}
+.arduino .es4 {color: #660099; font-weight: bold;}
+.arduino .es5 {color: #006699; font-weight: bold;}
+.arduino .br0 {color: #009900;}
+.arduino .sy0 {color: #339933;}
+.arduino .st0 {color: #ff0000;}
+.arduino .nu0 {color: #0000dd;}
+.arduino .nu6 {color: #208080;}
+.arduino .nu8 {color: #208080;}
+.arduino .nu12 {color: #208080;}
+.arduino .nu16 {color:#800080;}
+.arduino .nu17 {color:#800080;}
+.arduino .nu18 {color:#800080;}
+.arduino .nu19 {color:#800080;}
+.arduino .me1 {color: #202020;}
+.arduino .me2 {color: #202020;}
+.arduino .ln-xtra, .arduino li.ln-xtra, .arduino div.ln-xtra {background:#FFFF88;}
+.arduino span.xtra { display:block; }

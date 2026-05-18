@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<!--
+  Sandy buoy model — SENSOR-TEST CONFIGURATION
+  ============================================
+  Physics is OFF (<static>true</static>). Pose is driven externally by the
+  depth_publisher.py helper so we can scan the buoy through the water column
+  with sliders and validate sensor behaviour deterministically.
+
+  Sensors:
+    - as7341_down  : downward 8x8 RGB camera = AS7341 multi-spectral proxy
+                     (read R/G/B channels; for the 8 AS7341 bands, post-
+                     process the RGB values through your spectral response
+                     model in Simulink/MATLAB).
+
+    - photodiode_side : sideways 4x4 RGB camera = BPW34 proxy.
+                        Average all pixels and channels -> scalar irradiance.
+                        Co-aligned with a sideways excitation LED for
+                        fluorometry-style geometry.
+
+    - pressure_sensor : air_pressure sensor kept ONLY to keep the gz topic
+                        alive. Its real reading is irrelevant — the depth_
+                        publisher helper computes true hydrostatic pressure
+                        from pose and publishes /sandy/pressure separately.
+
+  Coordinate convention:
+    Gazebo cameras look along their LOCAL +X axis. A pose of
+    (0 0 0  roll pitch yaw) means: position at link origin, look along +X.
+    To point DOWN (-Z world), pitch by +pi/2: (0 0 0  0 1.5708 0).
+-->
+<sdf version="1.9">
+  <model name="sandy_buoy">
+
+    <!-- Kinematic: no physics, pose set externally. This is INTENTIONAL
+         for sensor testing. Buoyancy/drag come back when you switch to
+         dynamics testing later. -->
+    <static>true</static>
+
+    <link name="base_link">
+
+      <!-- Visual: orange cylinder so you can see it in the GUI. -->
+      <visual name="body_visual">
+        <geometry>
+          <cylinder><radius>0.2</radius><length>0.5</length></cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 0.5 0.0 1</ambient>
+          <diffuse>1.0 0.5 0.0 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- AS7341 DOWNWARD camera (multi-spectral proxy).
+           Position: 5 cm forward of centre, at bottom of buoy (-0.25 m).
+           Orientation: pitch = +pi/2 so the camera local +X rotates to
+             world -Z, i.e. it looks straight DOWN.
+           8x8 pixels: average across all pixels per channel to mimic
+             a single integrating sensor. Larger than 1x1 prevents aliasing
+             when small phantoms are partly out of frame.
+           60 degree FOV: matches AS7341 effective acceptance with no lens.
+      -->
+      <sensor name="as7341_down" type="camera">
+        <pose>0.05 0 -0.25  0 1.5708 0</pose>
+        <camera>
+          <horizontal_fov>1.047</horizontal_fov>  <!-- 60 deg -->
+          <image>
+            <width>8</width>
+            <height>8</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip><near>0.05</near><far>50</far></clip>
+        </camera>
+        <always_on>1</always_on>
+        <update_rate>10</update_rate>
+        <visualize>true</visualize>
+        <topic>sandy/as7341_down</topic>
+      </sensor>
+
+      <!-- BPW34 SIDE photodiode (irradiance proxy).
+           Position: 20 cm to the right of centre, mid-height.
+           Orientation: yaw = 0 (looks along local +X = sideways).
+           4x4 pixels: small, fast, low aliasing.
+           Narrow FOV (0.2 rad ~= 11 deg): photodiodes have small
+             angular acceptance unless diffused.
+      -->
+      <sensor name="photodiode_side" type="camera">
+        <pose>0.2 0 0  0 0 0</pose>
+        <camera>
+          <horizontal_fov>0.2</horizontal_fov>
+          <image>
+            <width>4</width>
+            <height>4</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip><near>0.05</near><far>20</far></clip>
+        </camera>
+        <always_on>1</always_on>
+        <update_rate>10</update_rate>
+        <visualize>true</visualize>
+        <topic>sandy/photodiode_side</topic>
+      </sensor>
+
+      <!-- Excitation LED for the photodiode (fluorometry geometry).
+           Co-aligned with photodiode_side: both at the same +X side, same
+           orientation. Blue LED (~470 nm) for chlorophyll-a excitation.
+           Note: in real fluorometry the detector usually has an emission
+           filter to reject the excitation. In sim, the camera proxy
+           captures whatever colour reaches it.
+      -->
+      <light name="bpw34_excitation_led" type="spot">
+        <pose>0.2 0 0  0 0 0</pose>
+        <diffuse>0.1 0.3 1.0 1</diffuse>
+        <specular>0.1 0.3 1.0 1</specular>
+        <attenuation>
+          <range>3</range>
+          <constant>0.2</constant>
+          <linear>0.3</linear>
+        </attenuation>
+        <spot>
+          <inner_angle>0.15</inner_angle>
+          <outer_angle>0.4</outer_angle>
+          <falloff>1.0</falloff>
+        </spot>
+      </light>
+
+      <!-- Pressure sensor placeholder. See note at top — actual depth
+           is published by the helper node. Kept here so the topic exists
+           for the bridge if you want to verify the pipeline. -->
+      <sensor name="pressure_sensor" type="air_pressure">
+        <always_on>1</always_on>
+        <update_rate>10</update_rate>
+        <topic>sandy/pressure_raw</topic>
+        <air_pressure>
+          <reference_altitude>0</reference_altitude>
+        </air_pressure>
+      </sensor>
+
+    </link>
+  </model>
+</sdf>

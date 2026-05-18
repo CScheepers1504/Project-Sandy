@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="robots" content="noindex,follow">
+        <meta name="robots" content="noarchive">
+        <style>
+            body { font-family: monospace; padding: 0; margin: 0; }
+            div.embedPastebin { padding: 0; color: #000; margin: 0; font-family: monospace; background: #F7F7F7; border: 1px solid ddd; border-radius:3px; }
+            html.embedPBBody div.embedPastebin { border: none; }
+            div.embedPastebin div.embedFooter { background: #F7F7F7; color: #333; font-size: 100%; padding: 6px 12px; border-bottom: 1px solid #ddd; text-transform:uppercase; }
+            div.embedPastebin div.embedFooter a,
+            div.embedPastebin div.embedFooter a:visited { color: #336699; text-decoration:none; }
+            div.embedPastebin div.embedFooter a:hover { color: red; }
+            .noLines ol { list-style-type: none; padding-left: 0.5em; }
+            .embedPastebin{background-color:#F8F8F8;border:1px solid #ddd;font-size:12px;overflow:auto;margin: 0 0 0 0;padding:0 0 0 0;line-height:21px}
+            .embedPastebin div { line-height:21px; font-family:Consolas, Menlo, Monaco, Lucida Console,'Bitstream Vera Sans Mono','Courier',monospace; }
+            ol { margin:0; padding: 0 0 0 55px}
+            ol li { border:0; margin:0;padding:0; }
+            li.ln-xtra .de1, li.ln-xtra .de2 {background:#F8F8CE;}
+            .embedPastebin ol li.li1 { margin: 0; }
+            .embedPastebin ol li.li2 { margin: 0; }
+        </style>
+                    <link href="noheader_data_002/night.bundle.css" rel="stylesheet">
+                <link href="noheader_data/python.css" rel="stylesheet">
+    </head>
+    <body class="night" data-new-gr-c-s-check-loaded="8.936.0" data-gr-ext-installed="">
+        <div class="embedPastebin">
+            
+            <div class="highlighted-code">
+                <div class="source">
+                    <ol class="python"><li class="li1"><div class="de1"><span class="co1">#The
+ 18B20 sensor is a digital temperature sensor that communicates over a 
+1-Wire interface. Here's an example code in Python that #reads the 
+temperature from an 18B20 sensor connected to a Raspberry Pi:</span></div></li>
+<li class="li1"><div class="de1"><span class="co1">#Note: This code 
+assumes that the 18B20 sensor is connected to GPIO4 (pin 7) of the 
+Raspberry Pi. If you're using a different pin, #you'll need to modify 
+the device_folder variable accordingly.</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="kw1">import</span> <span class="kw3">os</span></div></li>
+<li class="li1"><div class="de1"><span class="kw1">import</span> <span class="kw3">glob</span></div></li>
+<li class="li1"><div class="de1"><span class="kw1">import</span> <span class="kw3">time</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># initialize the 1-Wire bus</span></div></li>
+<li class="li1"><div class="de1"><span class="kw3">os</span>.<span class="me1">system</span><span class="br0">(</span><span class="st0">'modprobe w1-gpio'</span><span class="br0">)</span></div></li>
+<li class="li1"><div class="de1"><span class="kw3">os</span>.<span class="me1">system</span><span class="br0">(</span><span class="st0">'modprobe w1-therm'</span><span class="br0">)</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># find the file name of the 18B20 sensor</span></div></li>
+<li class="li1"><div class="de1">base_dir <span class="sy0">=</span> <span class="st0">'/sys/bus/w1/devices/'</span></div></li>
+<li class="li1"><div class="de1">device_folder <span class="sy0">=</span> <span class="kw3">glob</span>.<span class="kw3">glob</span><span class="br0">(</span>base_dir + <span class="st0">'28*'</span><span class="br0">)</span><span class="br0">[</span><span class="nu0">0</span><span class="br0">]</span></div></li>
+<li class="li1"><div class="de1">device_file <span class="sy0">=</span> device_folder + <span class="st0">'/w1_slave'</span></div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="kw1">def</span> read_temp_raw<span class="br0">(</span><span class="br0">)</span>:</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="st0">"""Read the raw temperature data from the 18B20 sensor"""</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; f <span class="sy0">=</span> <span class="kw2">open</span><span class="br0">(</span>device_file<span class="sy0">,</span> <span class="st0">'r'</span><span class="br0">)</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; lines <span class="sy0">=</span> f.<span class="me1">readlines</span><span class="br0">(</span><span class="br0">)</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; f.<span class="me1">close</span><span class="br0">(</span><span class="br0">)</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw1">return</span> lines</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="kw1">def</span> read_temp<span class="br0">(</span><span class="br0">)</span>:</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="st0">"""Read the temperature in Celsius from the 18B20 sensor"""</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; lines <span class="sy0">=</span> read_temp_raw<span class="br0">(</span><span class="br0">)</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw1">while</span> lines<span class="br0">[</span><span class="nu0">0</span><span class="br0">]</span>.<span class="me1">strip</span><span class="br0">(</span><span class="br0">)</span><span class="br0">[</span>-<span class="nu0">3</span>:<span class="br0">]</span> <span class="sy0">!=</span> <span class="st0">'YES'</span>:</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; <span class="kw3">time</span>.<span class="me1">sleep</span><span class="br0">(</span><span class="nu0">0.2</span><span class="br0">)</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; lines <span class="sy0">=</span> read_temp_raw<span class="br0">(</span><span class="br0">)</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; equals_pos <span class="sy0">=</span> lines<span class="br0">[</span><span class="nu0">1</span><span class="br0">]</span>.<span class="me1">find</span><span class="br0">(</span><span class="st0">'t='</span><span class="br0">)</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw1">if</span> equals_pos <span class="sy0">!=</span> -<span class="nu0">1</span>:</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; temp_string <span class="sy0">=</span> lines<span class="br0">[</span><span class="nu0">1</span><span class="br0">]</span><span class="br0">[</span>equals_pos+<span class="nu0">2</span>:<span class="br0">]</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; temp_c <span class="sy0">=</span> <span class="kw2">float</span><span class="br0">(</span>temp_string<span class="br0">)</span> / <span class="nu0">1000.0</span></div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; <span class="kw1">return</span> temp_c</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1"><span class="co1"># read the temperature from the sensor and print it</span></div></li>
+<li class="li1"><div class="de1">temp <span class="sy0">=</span> read_temp<span class="br0">(</span><span class="br0">)</span></div></li>
+<li class="li1"><div class="de1"><span class="kw1">print</span><span class="br0">(</span><span class="st0">'Temperature: {:.1f}°C'</span>.<span class="me1">format</span><span class="br0">(</span>temp<span class="br0">)</span><span class="br0">)</span></div></li>
+</ol>                </div>
+            </div>
+        </div>
+    
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

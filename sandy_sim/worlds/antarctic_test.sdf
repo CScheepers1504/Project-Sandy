@@ -1,0 +1,176 @@
+<?xml version="1.0" ?>
+<!--
+  Antarctic sensor-test world for Project Sandy
+  ============================================
+  Purpose: validate buoy sensor pipeline (AS7341, BPW34 proxy, pressure)
+  against a controllable underwater environment. Physics is OFF for the buoy
+  (kinematic pose control) because we only care about sensor functionality.
+
+  What this world contains:
+    - Antarctic-like dark, blue-tinted ambient + fog (Kd ~0.07/m matches SOCCOM)
+    - A red sphere and a blue sphere as phytoplankton phantoms
+      (visible to the cameras, pose-controllable via /world/.../set_pose service)
+    - The buoy, included from models/sandy_buoy/model.sdf
+
+  What it does NOT contain:
+    - Buoyancy plugin (irrelevant for sensor testing — sensor positions are
+      controlled directly)
+    - Hydrodynamics plugin (same reason)
+    - DAVE plugins (not needed for any of the above)
+
+  Run with:
+    export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/path/to/sandy_sim/models
+    gz sim -r worlds/antarctic_test.sdf
+-->
+<sdf version="1.9">
+  <world name="antarctic_ocean">
+
+    <!-- ============================================================
+         Physics: relaxed step size. We don't need 1 kHz because nothing
+         in this world has fast dynamics — the buoy is kinematic and the
+         phantoms are static. 10 ms step keeps RTF healthy on modest HW.
+         ============================================================ -->
+    <physics name="10ms" type="ignored">
+      <max_step_size>0.01</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <!-- World systems. NO buoyancy, NO hydrodynamics. -->
+    <plugin filename="gz-sim-physics-system"
+            name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system"
+            name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system"
+            name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-sensors-system"
+            name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <!-- Air pressure plugin enables the air_pressure sensor used as a
+         placeholder. We override its reading with a ROS 2 helper node
+         (depth_publisher.py) that computes true hydrostatic pressure
+         from the buoy's pose. Kept loaded so the sensor doesn't error. -->
+    <plugin filename="gz-sim-air-pressure-system"
+            name="gz::sim::systems::AirPressure"/>
+
+    <!-- Pose publisher: publishes every model's pose at 20 Hz so the
+         depth helper can derive depth from the buoy's true Z. -->
+    <plugin filename="gz-sim-pose-publisher-system"
+            name="gz::sim::systems::PosePublisher">
+      <publish_link_pose>false</publish_link_pose>
+      <publish_model_pose>true</publish_model_pose>
+      <publish_nested_model_pose>true</publish_nested_model_pose>
+      <use_pose_vector_msg>false</use_pose_vector_msg>
+      <update_frequency>20</update_frequency>
+    </plugin>
+
+    <!-- ============================================================
+         Scene: Antarctic Southern Ocean photic environment
+         ============================================================
+         - ambient: very dark blue (sub-photic baseline)
+         - background: near-black with cold-blue tint
+         - fog: exponential attenuation. Density 0.07/m matches Antarctic
+           Kd(PAR) from SOCCOM/biogeochemical Argo data for the mesotrophic
+           Southern Ocean. At 50m: ~3% surface irradiance. At 100m: ~0.09%.
+           This gives the buoy's downward camera a near-black baseline
+           that the red/blue phantoms can be seen against.
+    -->
+    <scene>
+      <ambient>0.0 0.02 0.08 1</ambient>
+      <background>0.0 0.01 0.06 1</background>
+      <fog>
+        <type>exponential</type>
+        <color>0.0 0.03 0.12 1</color>
+        <density>0.07</density>
+      </fog>
+      <grid>false</grid>
+    </scene>
+
+    <!-- A weak overhead "surface light" so the upper water column is
+         brighter than depth, mimicking attenuating downwelling PAR.
+         Position is well above the buoy's operating depth. -->
+    <light name="surface_sun" type="directional">
+      <pose>0 0 50 0 0 0</pose>
+      <diffuse>0.3 0.4 0.5 1</diffuse>
+      <specular>0.1 0.15 0.2 1</specular>
+      <direction>0 0 -1</direction>
+      <cast_shadows>false</cast_shadows>
+    </light>
+
+    <!-- ============================================================
+         The buoy itself. Spawned at -50 m (typical Argo park depth).
+         Physics is disabled on the buoy via <static>true</static> in the
+         model file — we drive its pose with the depth_publisher helper.
+         ============================================================ -->
+    <include>
+      <pose>0 0 -50 0 0 0</pose>
+      <uri>model://sandy_buoy</uri>
+    </include>
+
+    <!-- ============================================================
+         Phytoplankton phantoms
+         ============================================================
+         Two coloured spheres act as targets. The red one is the
+         "live phytoplankton" proxy — when the AS7341 downward camera
+         sees it, the red channel spikes. The blue one is the "control"
+         to make sure the blue channel works independently.
+
+         Both are <static>true</static> with <pose> at start, but they
+         can be moved at runtime by either:
+           gz service -s /world/antarctic_ocean/set_pose ...
+         or via the slider GUI helper in ros2_helper/.
+
+         They emit their own colour so they're visible regardless of
+         ambient lighting (this is the whole point of a phantom: it's
+         a known signal source).
+    -->
+    <model name="phantom_red">
+      <static>true</static>
+      <pose>0.5 0 -52 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><sphere><radius>0.15</radius></sphere></geometry>
+          <material>
+            <ambient>1.0 0.05 0.05 1</ambient>
+            <diffuse>1.0 0.1 0.1 1</diffuse>
+            <emissive>0.8 0.0 0.0 1</emissive>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="phantom_blue">
+      <static>true</static>
+      <pose>0 0.5 -52 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><sphere><radius>0.15</radius></sphere></geometry>
+          <material>
+            <ambient>0.05 0.05 1.0 1</ambient>
+            <diffuse>0.1 0.1 1.0 1</diffuse>
+            <emissive>0.0 0.0 0.8 1</emissive>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Optional: a reference grid plane far below for visual orientation
+         when manually flying the camera around. Not visible to the buoy's
+         sensors at typical operating depths. -->
+    <model name="seafloor_ref">
+      <static>true</static>
+      <pose>0 0 -200 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+          <material>
+            <ambient>0.02 0.02 0.03 1</ambient>
+            <diffuse>0.02 0.02 0.03 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

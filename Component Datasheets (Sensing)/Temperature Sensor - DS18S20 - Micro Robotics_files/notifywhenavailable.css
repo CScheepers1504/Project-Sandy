@@ -1,0 +1,167 @@
+.btn-cart.NWA-btn-action,
+#button-nwa-duplicate.NWA-btn-action {
+	/*background: rgb(151, 7, 222) !important*/
+}
+.NWA_popover {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	line-height: 1.428571429;
+	color: #333;
+	z-index: 999999999999999; 
+	text-align: left;
+	white-space: normal;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 6px;
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	background-clip: padding-box;
+	box-sizing: border-box;
+	margin: 35px 12px 12px 12px;
+	position: absolute;
+	z-index: 1050;
+}
+.NWA_popover.bottom .arrow {
+	top: -11px;
+	left: 50%;
+	margin-left: -11px;
+	border-bottom-color: #999;
+	border-bottom-color: rgba(0,0,0,0.25);
+	border-top-width: 0;
+}
+.NWA_popover .arrow {
+	border-width: 11px;
+}
+.NWA_popover.bottom .arrow:after {
+	top: 1px;
+	margin-left: -10px;
+	border-bottom-color: #fff;
+	border-top-width: 0;
+	content: " ";
+}
+.NWA_popover .arrow:after {
+	border-width: 10px;
+	content: "";
+}
+.NWA_popover .arrow, .NWA_popover .arrow:after {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+}
+.NWA_popover-title {
+	padding: 8px 5px;
+	margin: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.3em;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #ebebeb;
+	border-radius: 5px 5px 0 0;
+}
+h3.NWA_popover-title {
+	display: block;
+	font-size: 1.17em;
+	margin: 0;
+	font-weight: bold;
+}
+.NWA_popover-content {
+	padding: 10px;
+	border: 1px solid #ebebeb;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #fff;
+}
+input.NWA_popover_field_error {
+	border: #F59393 1px solid;
+	background: #FFF0F0;	
+}
+.NWAError {
+	color: #E62020;
+	font-size: 11px;	
+}
+input#NWAYourName, input#NWAYourEmail {
+	outline: none;
+}
+.NWA_loading {
+	margin: 0 auto;
+    width: 16px;
+    height: 16px;
+    background:transparent url('../../../javascript/notifywhenavailable/notifywhenavailable-loader.gif') no-repeat 0 0;
+    font-size: 0px;
+    display: inline-block;
+}
+.NWA_loader {
+	width:100%;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom:10px;
+	display:none;
+}
+.NWA_popover .nwa-inner-wrapper {
+	position: absolute;
+}
+.modal-backdrop {
+	cursor: pointer !important;
+}
+
+@media
+only screen /* iPhone X */
+and (device-width : 375px) 
+and (device-height : 812px) 
+and (-webkit-device-pixel-ratio : 3),
+only screen /* iPhone 8 */
+and (device-width : 375px) 
+and (device-height : 667px) 
+and (-webkit-device-pixel-ratio : 2),
+only screen /* iPhone 8 Plus */
+and (device-width : 414px) 
+and (device-height : 736px) 
+and (-webkit-device-pixel-ratio : 3),
+only screen /* iPhone 7 */
+and (min-device-width : 375px)
+and (max-device-width : 667px), 
+only screen /* iPhone 7 Plus */
+and (min-device-width : 414px)
+and (max-device-width : 736px),
+only screen /* iPhone 6 */
+and (min-device-width : 375px) 
+and (max-device-width : 667px),
+only screen /* iPhone 6 Plus */
+and (min-device-width : 414px) 
+and (max-device-width : 736px),
+only screen /* iPhone 5 & 5S */
+and (min-device-width : 320px) 
+and (max-device-width : 568px),
+only screen /* iPad */
+and (min-device-width : 768px) 
+and (max-device-width : 1024px),
+only screen /* iPad 3 and 4 */
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen /* iPad 1 and 2 */
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1),
+only screen /* iPad Mini */
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1) { 
+	html,body {
+	-webkit-overflow-scrolling : touch !important;
+	overflow: auto !important;
+	height: 100% !important;
+	}
+}
+@media (max-width: 767px) {
+	.nwa-inner-wrapper{
+		display: block;
+		height: 450px;
+		overflow: auto;
+		max-height: 80vh;
+	}
+}
